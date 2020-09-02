@@ -15,3 +15,8 @@
 - docker run -p 8080:8080 hello-python
 - ## to see s2i run/assemble execution path
 - docker inspect <image> | grep openshift
+
+## config map
+- kubectl create cm config-map-demo --from-literal=key1=value1
+- kubectl create -f bbox1.yaml
+- kubectl exec -it bbox1 -- env
