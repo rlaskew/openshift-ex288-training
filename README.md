@@ -1,5 +1,7 @@
 # openshift-ex288-training
 
+## 10/21/20 READER NOTE: This repo is a WIP while I study for the ex288 exam
+
 ## Install s2i on ubuntu -- repo location
 - https://github.com/openshift/source-to-image
 - https://github.com/openshift/source-to-image/releases
@@ -20,3 +22,6 @@
 - kubectl create cm config-map-demo --from-literal=key1=value1
 - kubectl create -f bbox1.yaml
 - kubectl exec -it bbox1 -- env
+
+## useful links
+- https://github.com/luckylittle/openshift-cheatsheet/blob/master/DO288.md
