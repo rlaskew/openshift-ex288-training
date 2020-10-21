@@ -23,8 +23,17 @@
 - kubectl create -f bbox1.yaml
 - kubectl exec -it bbox1 -- env
 
+## templates
+oc get template -n openshift
+oc get template mysql-ephemeral -n openshift
+oc get template mysql-ephemeral -n openshift -o yaml
+
 ## useful links
 - This Repo: https://github.com/rlaskew/openshift-ex288-training
 - 4.2 Playground (exam version I'm taking): https://learn.openshift.com/playgrounds/openshift42/
 - Exam Objectives: https://www.redhat.com/en/services/training/ex288-red-hat-certified-specialist-openshift-application-development-exam?section=Objectives
 - Main Repo is also good: https://github.com/luckylittle/openshift-cheatsheet/blob/master/DO288.md
+- skopeo: https://github.com/containers/skopeo
+- DO288 Labs: https://github.com/lutfigaranti/DO288/
+- maybe helpfule: https://github.com/ValentinoUberti/DO288-NOTES
+- maybe useful: https://github.com/DanukaPraneeth/DO288
