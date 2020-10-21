@@ -24,4 +24,7 @@
 - kubectl exec -it bbox1 -- env
 
 ## useful links
-- https://github.com/luckylittle/openshift-cheatsheet/blob/master/DO288.md
+- This Repo: https://github.com/rlaskew/openshift-ex288-training
+- 4.2 Playground (exam version I'm taking): https://learn.openshift.com/playgrounds/openshift42/
+- Exam Objectives: https://www.redhat.com/en/services/training/ex288-red-hat-certified-specialist-openshift-application-development-exam?section=Objectives
+- Main Repo is also good: https://github.com/luckylittle/openshift-cheatsheet/blob/master/DO288.md
